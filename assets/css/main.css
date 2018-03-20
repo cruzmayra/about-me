@@ -1,5 +1,9 @@
 @import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
+@font-face {
+	font-family: 'Norwester';
+	src: url(../fonts/norwester.ttf);
+}
 
 /*
 	Strata by HTML5 UP
@@ -1567,7 +1571,8 @@
 
 	body, input, select, textarea {
 		color: #a2a2a2;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		/*font-family: "Source Sans Pro", Helvetica, sans-serif;*/
+		font-family: 'Roboto', sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -1579,7 +1584,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #A9DDD6;
 		text-decoration: none;
 	}
 
@@ -1603,7 +1608,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #BF1363;
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -1615,16 +1620,19 @@
 		}
 
 	h1 {
+		font-family: Norwester;
 		font-size: 2em;
 		line-height: 1.5em;
 	}
 
 	h2 {
+		font-family: Norwester;
 		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
 	h3 {
+		font-family: Norwester;
 		font-size: 1.25em;
 		line-height: 1.5em;
 	}
@@ -2578,7 +2586,7 @@
 	}
 
 		#main > section {
-			border-top: solid 2px #efefef;
+			border-top: solid 2px #064789;
 			margin: 4em 0 0 0;
 			padding: 4em 0 0 0;
 		}
